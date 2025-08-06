@@ -1,0 +1,16 @@
+Package: fake-usb-tester
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-pyqt5, libqt5gui5, libqt5core5a, libqt5widgets5, f3
+Maintainer: Zeus <github.com/shampuan>
+Description: A simple GUI application to test USB drives for counterfeit capacity.
+ This tool utilizes the 'f3' (Fight Flash Fraud) utility to verify the true
+ storage capacity of flash drives, helping users identify fake USBs.
+ .
+ Built using PyQt5 for the graphical interface and f3 for backend testing.
+ Thanks so much, dear f3 maintainer :)
+ https://fight-flash-fraud.readthedocs.io/en/latest/introduction.html
+
+

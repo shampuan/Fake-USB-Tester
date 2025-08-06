@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fake USB Tester
+Comment=Detect fake or mislabeled USB drives
+Exec=fake-usb-tester
+Icon=/usr/share/Fake_USB_Tester/icons/flashicon.png
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=true
